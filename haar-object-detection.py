@@ -19,6 +19,7 @@ while True:
         eyes = eye_cascade.detectMultiScale(roi_gray)
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), 100, 2)
+        # eyes are being detected without even assigning roi_color back to orignal frame that is being plotted!
         frame[y:y + h, x:x + w] = roi_color
     cv2.imshow('detection', frame)
 
