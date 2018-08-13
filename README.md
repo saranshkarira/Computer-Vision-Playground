@@ -25,10 +25,12 @@ Implementing multiple Computer Vision and Image Processing techniques using Open
 - [x] Haar Cascades
 - [ ] Manual Haar Cascades
 
-### An Example of Canny Edge Detection: 
-<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/canny_edge_detector_sample.png">
-
 ## How to use the Repo:
 - Some techniques are written in Colab and some are written as scripts, decision based on technique's computation needs as well as whether input was video/cam or an Image
 - Colab Notebooks are stored in Notebooks/ ; Scripts are stored in Scripts/
 - Processed and Raw Images are prefetched in Notebooks, while for scripts you'll need to supply your own feed, most likely video or a webcam feed.
+
+### An Example of Canny Edge Detection: 
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/canny_edge_detector_sample.png">
+
+**Adios!**
