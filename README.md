@@ -71,3 +71,14 @@ Implementing multiple Computer Vision and Image Processing techniques using Open
 - `-scale x_scale, y_scale, interpolation_type`
 - `-composite fg_image, mask_image, alpha`
 *Note* : The bg_image of Composite is the input image
+
+
+### Workaround : OpenCV
+- Some techniques are written in Colab and some are written as scripts, decision based on technique's computation needs as well as whether input was video/cam or an Image
+- Colab Notebooks are stored in Notebooks/ ; Scripts are stored in Scripts/
+- Processed and Raw Images are prefetched in Notebooks, while for scripts you'll need to supply your own feed, most likely video or a webcam feed.
+
+### An Example of Canny Edge Detection: 
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/canny_edge_detector_sample.png">
+
+**Adios!**
