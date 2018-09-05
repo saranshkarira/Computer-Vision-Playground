@@ -14,7 +14,7 @@ Implementing multiple Computer Vision and Image Processing techniques using Open
 - [x] Image Sharpening
 - [x] Brightness
 - [x] Contrast
-- [x] Blur
+- [x] Gaussian Blur
 - [x] Gaussian Interpolation
 - [x] Bilinear Interpolation
 - [x] Point Interpolation
@@ -38,9 +38,76 @@ Implementing multiple Computer Vision and Image Processing techniques using Open
 - [x] Haar Cascades
 - [ ] Manual Haar Cascades
 
-### Workaround : Image Processing Techniques in Pure Python[No numpy]
 
-## Requirements: OpenCV3 : To load the images only
+### Some Examples:
+**TODO** : Generate outputs of Implemenatations of Script Files as Well
+
+#### Binary Masks and Filtering
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/bitwise_og.png" width="250" height="250" />
+
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/binary_thresh_mask.png" width="150" height="200" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/bitwise_mask_filtering.png" width="150" height="200" />
+
+#### Foreground Extraction
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/fg_extraction_grabcut.png" width="150" height="200" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/fg_extraction2.png" width="150" height="200" />
+
+#### BruteForce Feature Matching
+<img src="https://github.com/saranshkarira/opencv-playground/blob/master/src/bruteforce_feature_matching.png" />
+
+#### Canny Edge Detection: 
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/canny_edge_detector_sample.png" width="300" height="256" />
+
+#### Corner Detection
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/corner_detection.png" width="256" height="256" />
+
+#### Thresholding
+ - **ORIGNAL** (Not so Clear) | **GRAY**
+ 
+ <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_og.png" width="400" height="225" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_togray.png" width="400" height="225" />
+ 
+ - **BINARY** | **BINARY + GRAY**
+ 
+ <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_binary.png" width="400" height="225" /> <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_binary_after_gray.png" width="400" height="225" />
+ 
+ - **TRUNCATED** | **TO ZERO** 
+ 
+ <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_trunc.png" width="400" height="225" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_tozero.png" width="400" height="225" />
+ 
+ - **ADAPTIVE : GAUSSIAN** | **OTSU**
+ 
+ <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_adaptive_gaus.png" width="400" height="225" /> <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_adaptive_otsu.png" width="400" height="225" />
+ 
+### Examples of Pure Python Implementations:
+ - **Gaussian Blur 0.125| 2 | 8**
+ 
+ <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/blur_0.125.jpg" width="150" height="128" /> <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/blur_2.jpg" width="150" height="128" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/blur_8.jpg" width="150" height="128" />
+ 
+- **Edge Detection**
+
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/edgedetect.jpg" width="150" height="128" />
+
+- **Sharpen**
+
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/input/princeton_small.jpg" width="150" height="128" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/sharpen.jpg" width="150" height="128" />
+
+- **Contrast -0.5 | 0 | 0.5 |2**
+
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/input/c.jpg" width="300" height="256" />
+
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/c_contrast_-0.5.jpg" width="150" height="128" /> <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/c_contrast_0.0.jpg" width="150" height="128" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/c_contrast_0.5.jpg" width="150" height="128" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/c_contrast_2.0.jpg" width="150" height="128" />
+
+- **Composite**
+
+- **Brightness 0.0|0.5|2.0**
+
+ <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/princeton_small_brightness_0.0.jpg" width="150" height="128" /> <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/princeton_small_brightness_0.5.jpg" width="150" height="128" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/princeton_small_brightness_2.0.jpg" width="150" height="128" />
+
+- **Scale BiLinear | Gaussian | Point [Interpolation]**
+
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/scale_bilinear.jpg" /> <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/scale_gaussian.jpg" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/scale_point.jpg" />
+
+### Manual : Image Processing Techniques in Pure Python[No numpy]
+
+#### Requirements: OpenCV3 : To load the images only
 
 **Note**: No library is used to implement either part or whole of the algorithms. Not even numpy.
 
@@ -78,7 +145,6 @@ Implementing multiple Computer Vision and Image Processing techniques using Open
 - Colab Notebooks are stored in Notebooks/ ; Scripts are stored in Scripts/
 - Processed and Raw Images are prefetched in Notebooks, while for scripts you'll need to supply your own feed, most likely video or a webcam feed.
 
-### An Example of Canny Edge Detection: 
-<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/canny_edge_detector_sample.png">
+
 
 **Adios!**
