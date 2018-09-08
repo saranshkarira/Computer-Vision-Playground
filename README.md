@@ -1,27 +1,25 @@
 # OpenCV Playground:
 Implementing multiple Computer Vision and Image Processing techniques using OpenCV
 
-### Some Examples:
+## Some Examples:
 **TODO** : Generate outputs of Implemenatations of Script Files as Well
 
-#### Binary Masks and Filtering
+### Binary Masks and Filtering
 <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/bitwise_og.png" width="250" height="250" />
 
 <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/binary_thresh_mask.png" width="150" height="200" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/bitwise_mask_filtering.png" width="150" height="200" />
 
-#### Foreground Extraction
+### Foreground Extraction
 <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/fg_extraction_grabcut.png" width="150" height="200" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/fg_extraction2.png" width="150" height="200" />
 
-#### BruteForce Feature Matching
+### BruteForce Feature Matching
 <img src="https://github.com/saranshkarira/opencv-playground/blob/master/src/bruteforce_feature_matching.png" />
 
-#### Canny Edge Detection: 
-<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/canny_edge_detector_sample.png" width="300" height="256" />
+### Canny Edge Detection | Corner Detection
 
-#### Corner Detection
-<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/corner_detection.png" width="256" height="256" />
+<img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/canny_edge_detector_sample.png" width="300" height="256" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/corner_detection.png" width="256" height="256" />
 
-#### Thresholding
+### THRESHOLDING
  - **ORIGNAL** (Not so Clear) | **GRAY**
  
  <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_og.png" width="400" height="225" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_togray.png" width="400" height="225" />
@@ -38,12 +36,12 @@ Implementing multiple Computer Vision and Image Processing techniques using Open
  
  <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_adaptive_gaus.png" width="400" height="225" /> <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/src/thresh_adaptive_otsu.png" width="400" height="225" />
  
-### Examples of Pure Python Implementations:
- - **Gaussian Blur 0.125| 2 | 8**
+### SOME IMPLMENTATIONS IN PURE PYTHON:
+ - **Gaussian Blur(Convolution) 0.125| 2 | 8**
  
  <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/blur_0.125.jpg" width="150" height="128" /> <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/blur_2.jpg" width="150" height="128" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/blur_8.jpg" width="150" height="128" />
  
-- **Edge Detection**
+- **Edge Detection(Overlaid by Convolution)**
 
 <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/edgedetect.jpg" width="150" height="128" />
 
