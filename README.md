@@ -1,44 +1,6 @@
 # OpenCV Playground:
 Implementing multiple Computer Vision and Image Processing techniques using OpenCV
 
-## Requirements:
-- Google Colab: For Notebooks(Not necessary, just don't run the setup part)
-- Python3.6
-- OpenCV3
-- Numpy
-
-## Implementations:
-
-### Pure Python: No OpenCV, No Numpy:
-- [x] Edge Detection
-- [x] Image Sharpening
-- [x] Brightness
-- [x] Contrast
-- [x] Gaussian Blur
-- [x] Gaussian Interpolation
-- [x] Bilinear Interpolation
-- [x] Point Interpolation
-- [x] Composite
-
-### OpenCV:
-- [x] Overlays
-- [x] Thresholding
-- [x] Creating Masks
-- [x] Color Filtering
-- [x] Smoothing
-- [x] Morphological Transformations
-- [x] Gradients
-- [x] Edge Detections
-- [x] Template Matching
-- [x] GrabCut
-- [x] Foreground/Motion Extraction
-- [x] Corner Detection
-- [x] Feature Matching by BruteForce(HomoGraphy)
-- [x] Background Reduction
-- [x] Haar Cascades
-- [ ] Manual Haar Cascades
-
-
 ### Some Examples:
 **TODO** : Generate outputs of Implemenatations of Script Files as Well
 
@@ -105,9 +67,45 @@ Implementing multiple Computer Vision and Image Processing techniques using Open
 
 <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/scale_bilinear.jpg" /> <img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/scale_gaussian.jpg" /><img src="https://raw.githubusercontent.com/saranshkarira/opencv-playground/master/pure_python/output/scale_point.jpg" />
 
-### Manual : Image Processing Techniques in Pure Python[No numpy]
 
-#### Requirements: OpenCV3 : To load the images only
+## Implementations:
+
+### Pure Python: No OpenCV, No Numpy:
+- [x] Edge Detection
+- [x] Image Sharpening
+- [x] Brightness
+- [x] Contrast
+- [x] Gaussian Blur
+- [x] Gaussian Interpolation
+- [x] Bilinear Interpolation
+- [x] Point Interpolation
+- [x] Composite
+
+### OpenCV:
+- [x] Overlays
+- [x] Thresholding
+- [x] Creating Masks
+- [x] Color Filtering
+- [x] Smoothing
+- [x] Morphological Transformations
+- [x] Gradients
+- [x] Edge Detections
+- [x] Template Matching
+- [x] GrabCut
+- [x] Foreground/Motion Extraction
+- [x] Corner Detection
+- [x] Feature Matching by BruteForce(HomoGraphy)
+- [x] Background Reduction
+- [x] Haar Cascades
+- [ ] Manual Haar Cascades
+
+
+## Requirements:
+- Google Colab: For Notebooks(Not necessary, just don't run the setup part)
+- Python3.6
+- OpenCV3
+- Numpy
+
 
 **Note**: No library is used to implement either part or whole of the algorithms. Not even numpy.
 
